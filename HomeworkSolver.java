@@ -111,7 +111,7 @@ public class HomeworkSolver {
 
         for (String state : finalState) {
             if (visitedAccesibleStates.containsKey(state)) {
-                System.out.println("Yes");
+                System.out.println("No");
                 yes = true;
                 break;
             }
@@ -119,7 +119,7 @@ public class HomeworkSolver {
         if(!yes) {
             for (String state : accessibleStates) {
                 if (visitedProductive.containsKey(state)) {
-                    System.out.println("Yes");
+                    System.out.println("No");
                     yes = true;
                     break;
                 }
@@ -128,13 +128,13 @@ public class HomeworkSolver {
 
         if(!yes) {
             if(visitedProductive.containsKey(startState)) {
-                System.out.println("Yes");
+                System.out.println("No");
                 yes = true;
             }
         }
 
         if(yes == false) {
-            System.out.println("No");
+            System.out.println("Yes");
         }
     }
 
