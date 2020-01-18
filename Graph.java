@@ -2,10 +2,15 @@ import java.io.*;
 import java.util.*;
 
 class Graph {
-    public Map<String, Vector<String>> adj = new HashMap<>();
+    private Map<String, Vector<String>> adj = new HashMap<>();
 
     Graph() {
     }
+
+   public Map<String, Vector<String>> getGraph () {
+        return adj;
+    }
+
 
     void addEdge(String from, String to) {
         if(adj.containsKey(from)) {
