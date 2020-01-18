@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf799b6d-4e56-477d-a8db-552cc67c23d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeworkSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeworkSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <updated>1579096132529</updated>
       <workItem from="1579096135496" duration="1994000" />
       <workItem from="1579100655009" duration="264000" />
-      <workItem from="1579323961094" duration="12711000" />
+      <workItem from="1579323961094" duration="13901000" />
     </task>
     <servers />
   </component>
@@ -87,5 +88,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579100659350" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579351957255">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579351957255" />
   </component>
 </project>

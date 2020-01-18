@@ -1,3 +1,23 @@
+/*
+ *  **********************************************************************
+ *  DIEACONU CONFIDENTIAL
+ *  _____________________
+ *
+ *   Copyright 2019 Vlad-Stefan Dieaconu
+ *   Zero Rights Reserved.
+ *
+ *  NOTICE:  All information contained herein is, and remains
+ *  the property of Vlad-Stefan Dieaconu. You can use it however you want,
+ *  it's OPEN-SOURCE, just don't say it was written by you. Give credits!
+ *  Dissemination of this information or reproduction of this material
+ *  is strictly approved unless prior written permission is denied by me.
+ *  #SharingIsCaring #LongLiveOpenSource #FreeInternet
+ *
+ *  Original Publisher https://github.com/vladstefandieaconu
+ *  Date: January 2020
+ *  **********************************************************************
+ */
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -30,18 +50,15 @@ public class HomeworkSolver {
         while (q.size() != 0) {
             start = q.poll();
 
-            if(g.getGraph().containsKey(start))
-                for (String n : g.getGraph().get(start)) {
-                    if (!visited.containsKey(n)) {
-                        visited.put(n, true);
-                        q.add(n);
+            if(g.getGraph().containsKey(start)) {
+                for (String lookinForThisState : g.getGraph().get(start)) {
+                    if (!visited.containsKey(lookinForThisState)) {
+                        visited.put(lookinForThisState, true);
+                        q.add(lookinForThisState);
                     }
                 }
+            }
         }
-    }
-
-    public Integer getNumOfStates() {
-        return states.size();
     }
 
     public void computeGraphProductiveStates() {
@@ -136,10 +153,6 @@ public class HomeworkSolver {
         if(yes == false) {
             System.out.println("Yes");
         }
-    }
-
-    public void isLanguageFinite() {
-
     }
 
     public void addFinalState(String s) {

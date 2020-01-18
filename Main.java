@@ -3,8 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 
-
-
 public class Main {
 
     public static void main(String [] argz) {
@@ -59,7 +57,6 @@ public class Main {
                 break;
             case 5:
                 //TODO: Finite language
-                scanner.solve.isLanguageFinite();
                 break;
             default:
                 System.err.println("Argument error");
