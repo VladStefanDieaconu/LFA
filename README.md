@@ -1,6 +1,7 @@
 [![FollowMe](https://img.shields.io/github/followers/vladstefandieaconu?label=Follow&style=social)](https://github.com/VladStefanDieaconu)
 
 Vlad-Stefan Dieaconu 331CA - Ianuarie 2020
+Tema Limbaje formale automate, anul 3, seria CA.
 
 Pentru a vedea daca graful accepta sirul vid am verificat daca starea initiala este si stare finala.
 Pentru a obtine starile accesibile am facut un dfs din starea de start, toate starile visited sunt accesibile.
