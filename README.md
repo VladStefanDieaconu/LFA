@@ -1,8 +1,3 @@
-[![FollowMe](https://img.shields.io/github/followers/vladstefandieaconu?label=Follow&style=social)](https://github.com/VladStefanDieaconu)
-
-Vlad-Stefan Dieaconu 331CA - Ianuarie 2020
-Tema Limbaje formale automate, anul 3, seria CA.
-
 <div id="top">
 
 <!-- PROJECT SHIELDS -->
